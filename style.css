@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
+
+/* NAVIGATION */
+.nav {
+  background: #333333;
+  display: flex;
+  border-top: 1px;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-flex;
+  margin-left: auto;
+}
+.nav-list li {
+  padding: 0px 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* TITLE BAR */
+.div-title-bar {
+  background: #7745a8;
+  display: flex;
+  color: #ffffff;
+  padding: 7px;
+  padding-left: 4%;
+  padding-right: 6%;
+  border-top: 1px;
+  border-bottom: 1px;
+}
+.div-title-bar span {
+  align-self: center;
+  font-size: 1.7em;
+}
+.save-btn {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  margin-left: auto;
+  padding: 0px;
+  cursor: pointer;
+}
+.save-btn li {
+  background: green;
+  list-style: none;
+  border: 1px ridge #333333;
+  border-radius: 4px;
+  padding: 12px 42px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.save-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* TASK INPUT */
+.task-input {
+  cursor: text;
+}
+
+.task-input input {
+  border: 0px;
+  width: 96%;
+  font-size: 2em;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 4%;
+  padding-right: 0%;
+}
+
+/* THE MAIN TASK LIST */
+.div-task-lists {
+  cursor: text;
+  background-color: red;
+}
+#task-lists {
+  margin: 0px;
+  background-color: #cacaca;
+}
+#task-lists li {
+  background-color: #cacaca;
+  width: 96%;
+  font-size: 2em;
+  padding: 10px;
+  padding-left: 4%;
+  padding-right: 0%;
+  /* And to make the list totally responsive */
+}
