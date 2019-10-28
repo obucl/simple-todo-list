@@ -11,7 +11,7 @@
 
 <body>
   <div class="container">
-    
+
     <nav class="nav">
       <ul class="nav-list">
         <li class="main-nav-list"><a href="">New List</a></li>
@@ -23,18 +23,19 @@
     <div class="div-title-bar">
       <span>My to-do list (today's date)</span>
       <ul class="save-btn">
-        <li><a href="">Save this list</a></li>
+        <li><a href="">Export This List</a></li>
         <li id="mobile-btn"><a href="">S</a></li>
       </ul>
     </div>
+
     <section class="task-input">
       <form action="" method="post" autocomplete="off">
-        <input type="text" name="" placeholder="Write your task here..." id="input">
+        <input type="text" name="" placeholder="Write your task here..." id="task-field" maxlength="40">
       </form>
     </section>
-    <div class="div-task-lists">
-      <ul id="task-lists">
-      </ul>
+
+    <div class="div-task">
+      <ul id="task-list"></ul>
     </div>
 
   </div>
